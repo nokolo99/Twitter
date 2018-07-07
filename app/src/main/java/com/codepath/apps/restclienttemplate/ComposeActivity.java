@@ -24,8 +24,6 @@ public class ComposeActivity extends AppCompatActivity {
     private TwitterClient client;
     Button button;
     EditText tweet;
-
-    // declare variables to keep track of changing character count
     TextView tvCharactersLeft;
 
     @Override
@@ -36,6 +34,8 @@ public class ComposeActivity extends AppCompatActivity {
         tweet = findViewById(R.id.et_Tweet);
         client = new TwitterClient(this);
         tvCharactersLeft = findViewById(R.id.tvCharactersLeft);
+        // set original character count to 140
+        tvCharactersLeft.setText("140 characters left");
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
