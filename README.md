@@ -20,7 +20,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] User can **see a counter with total number of characters left for tweet** on compose tweet page
+* [x] User can **see a counter with total number of characters left for tweet** on compose tweet page
 * [x] User can **pull down to refresh tweets timeline**
 * [ ] User is using **"Twitter branded" colors and styles**
 * [ ] User sees an **indeterminate progress indicator** when any background or network task is happening
@@ -34,7 +34,7 @@ The following **bonus** features are implemented:
 
 * [ ] User can view more tweets as they scroll with infinite pagination
 * [ ] Compose tweet functionality is build using modal overlay
-* [ ] Use Parcelable instead of Serializable using the popular [Parceler library](http://guides.codepath.com/android/Using-Parceler).
+* [x] Use Parcelable instead of Serializable using the popular [Parceler library](http://guides.codepath.com/android/Using-Parceler).
 * [ ] Replace all icon drawables and other static image assets with [vector drawables](http://guides.codepath.com/android/Drawables#vector-drawables) where appropriate.
 * [ ] User can **click a link within a tweet body** on tweet details view. The click will launch the web browser with relevant page opened.
 * [ ] User can view following / followers list through any profile they view.
@@ -58,7 +58,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I attempted the Infinite Pagination stretch goal and was making good progress. However, I ran into several error warnings that were difficult to debug, though I was able to catch some of them. However, I was advised that this might be too hard for me, and moved on to optional goals that were better suited to my skillset. I was proud to be able to implement the character count without any help, which is definitely a milestone for me.
 
 ## Open-source libraries used
 
@@ -67,7 +67,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2018] [Nwanneka Okolo]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
