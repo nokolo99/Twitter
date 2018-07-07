@@ -23,4 +23,13 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="46dp" />
 
+    <TextView
+        android:id="@+id/tvCharactersLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bnTweet"
+        android:layout_alignParentEnd="true"
+        android:text="140 characters left"/>
+
+
 </RelativeLayout>
